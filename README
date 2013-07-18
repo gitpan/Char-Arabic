@@ -1,0 +1,44 @@
+NAME
+
+  Arabic - Source code filter to escape Arabic script
+
+SYNOPSIS
+
+  use Arabic;
+
+DESCRIPTION
+
+  The Arabic software provides character oriented Perl scripting
+  environment in Arabic by easy installation and easy usage.
+
+  - Character oriented regular expression
+  - Character oriented run-time routines
+  - Character oriented subroutines
+      and
+  - Byte oriented CORE::* functions
+  - Byte oriented regular expression on /b modifier
+
+  Information processing model beginning with perl3 or this software.
+
+    +--------------------------------------------+
+    |       Text strings as Binary strings       |
+    |       Binary strings as Text strings       |
+    +--------------------------------------------+
+    |              Not UTF8 Flagged              |
+    +--------------------------------------------+
+
+INSTALLATION
+
+  Just copy Arabic.pm and Earabic.pm to your @INC directory.
+  For example, to C:\Perl\site\lib
+
+SUBROUTINES
+
+  Arabic::length(charstring)
+  Arabic::substr(charstring, charpos, charlen)
+  etc
+
+SEE ALSO
+
+  http://search.cpan.org/~ina/
+
