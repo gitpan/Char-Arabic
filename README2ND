@@ -1,14 +1,12 @@
 NAME
 
-       Char::Arabic - Source code filter for Arabic script (Imitation JPerl)
+       Arabic - Source code filter for Arabic script (Imitation JPerl)
 
 SYNOPSIS
 
     In your script:
 
-      use Char::Arabic; # CPAN formal style
-         or
-      use Arabic; # casual style
+      use Arabic;
 
     At command prompt:
 
